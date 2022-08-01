@@ -1,0 +1,75 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(190, 223, 230);
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+.bigcard{
+    max-width: 500px;
+    margin:100px auto;
+    padding: 20px;
+    display: grid;
+    border-radius: 20px;
+    background-size: cover;
+}
+
+.smallcard{
+    background-image: url('images/illustration-hero.svg');
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.mediumcard{
+    background-color: white;
+    padding:50px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+
+.payment{
+    background-color: rgb(240, 240, 240);
+    padding:10px;
+    border-radius: 10px;
+    margin:10px;
+}
+
+img {
+    float:left;
+    margin-right: 10px;
+}
+
+.proceed{
+    background-color: rgb(57, 57, 227);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 25px;
+    box-shadow: 5px 10px 4px rgb(222, 222, 222);
+    color:#fff;
+}
+
+
+.cancel{
+    opacity:70%;
+    padding:10px;
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+}
+
+
+
+
