@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.2;
+}
+
+.container1 {
+    display: flex;
+    background-color: rgb(244, 246, 245);
+    height: 50px;
+    font-size: medium;
+}
+
+.features {
+    padding: 15px;
+    opacity: 40%;
+}
+
+.snap {
+    margin-right: 50px;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+#register {
+    border-width: 10px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.login {
+    padding : 15px;
+    opacity: 40%;
+    display: flex;
+    justify-content: end;
+}
+
+.container {
+    display: flex;
+}
+
+.hero {
+    height: 750px;
+    padding: 100px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.main {
+    padding: 100px;
+    margin-left: 100px;
+}
+
+.main h1{
+    font-size: 3rem;
+}
+
+.main p{
+    opacity: 40%;
+    word-spacing: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.main h3{
+    background-color: rgb(30, 29, 29);
+    color:white;
+    border-radius: 15px;
+    padding: 10px;
+    width: 120px;
+    margin-top: 50px;
+}
+
+.learn {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+
